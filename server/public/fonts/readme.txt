@@ -1,0 +1,3 @@
+!!!! REMEMBER, ALL MY FONTS ARE FREE FOR PERSONAL AND COMMERCIAL USE, YOU DO NOT NEED TO ASK ABOUT ANYTHING !!!!
+
+Powerr is a font with the 1980s in its blood. This is a font you can see advertising to you a brand new Polaroid camera, or maybe a cool old car. To put it simply - YOU have the Powerr! This font is the only font to truly capture the eighties, you even get cool bonus features like the terminal conflict detection and four stylistic sets. When you want to feel nostalgic, power through with Powerr.

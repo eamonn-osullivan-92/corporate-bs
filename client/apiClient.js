@@ -1,9 +1,12 @@
 import request from 'superagent'
 
-const serverURL = 'http://localhost:3000/api/v1'
+const apiURL = 'https://corporatebs-generator.sameerkumar.website/'
 
-// *** EXAMPLE ***
-export function getWelcome() {
-  return request.get(`${serverURL}/welcome`).then((response) => response.body)
-}
-// ***   ***   ***
+export function getBuzzWord() {
+    return request
+      .get(apiURL)
+      .then((resp) => resp.body.phrase)
+      .catch((err) => {
+        console.log('Err message: ' + err)
+      })
+  }

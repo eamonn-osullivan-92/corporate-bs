@@ -1,21 +1,14 @@
-import React, { useState, useEffect } from 'react'
-
-import { getWelcome } from '../apiClient'
+import React from 'react'
+import Hero from './Hero'
+import Generator from './Generator'
 
 function App() {
-  const [welcomeStatement, setWelcomeStatement] = useState('')
-
-  useEffect(() => {
-    getWelcome()
-      .then((res) => {
-        setWelcomeStatement(res.statement)
-      })
-      .catch((err) => {
-        console.error(err.message)
-      })
-  })
-
-  return <h1>{welcomeStatement}</h1>
+  return (
+    <div className="container">
+      <Hero />
+      <Generator />
+    </div>
+  )
 }
 
 export default App
